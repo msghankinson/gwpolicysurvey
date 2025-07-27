@@ -1,36 +1,222 @@
----
-layout: default
-title: Michael Hankinson
----
-<body style="font-family: sans-serif"></body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Hankinson - State Legislator Survey</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZP2E6EJB8S"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZP2E6EJB8S');
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --gw-blue: #002147;
+            --gw-buff: #E1C16E;
+            --text-primary: #333333;
+            --text-secondary: #666666;
+            --background: #ffffff;
+            --border-light: #f0f0f0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--background);
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        header {
+            padding: 3rem 0 2rem;
+            text-align: center;
+            border-bottom: 1px solid var(--border-light);
+            margin-bottom: 3rem;
+        }
+        
+        .logo {
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 400;
+            color: var(--gw-blue);
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+        
+        .intro {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            font-style: italic;
+            margin-bottom: 2.5rem;
+            text-align: center;
+        }
+        
+        .content p {
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+        
+        .survey-box {
+            background-color: #fafafa;
+            border: 1px solid var(--border-light);
+            padding: 2rem;
+            margin: 2.5rem 0;
+            border-radius: 4px;
+        }
+        
+        .survey-box h2 {
+            font-size: 1.3rem;
+            color: var(--gw-blue);
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+        
+        .survey-box p {
+            margin-bottom: 1.2rem;
+        }
+        
+        .survey-link {
+            display: inline-block;
+            background-color: var(--gw-blue);
+            color: white;
+            padding: 0.8rem 1.8rem;
+            text-decoration: none;
+            border-radius: 3px;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+            margin-top: 0.5rem;
+        }
+        
+        .survey-link:hover {
+            background-color: #001a35;
+        }
+        
+        .rewards {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+        }
+        
+        .about {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-light);
+        }
+        
+        .about h2 {
+            font-size: 1.2rem;
+            color: var(--gw-blue);
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+        
+        a {
+            color: var(--gw-blue);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .highlight {
+            color: var(--gw-blue);
+            font-weight: 500;
+        }
+        
+        footer {
+            margin-top: 4rem;
+            padding: 2rem 0;
+            text-align: center;
+            border-top: 1px solid var(--border-light);
+        }
+        
+        footer a {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1.5rem;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .survey-box {
+                padding: 1.5rem;
+            }
+            
+            .logo {
+                max-width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="gw_primary_2c_0.png" alt="George Washington University" class="logo">
+            <h1>State Legislator Survey</h1>
+            <p class="subtitle">A non-partisan research study</p>
+        </header>
 
-		<div class="blurb">
-			<img src="gw_primary_2c_0.png" alt="GW Logo" style="width:250px;height:200px;">
-			<h1>State Legislator Survey</h1>
-			<h2>A non-partisan research study</h2>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZP2E6EJB8S"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <main>
+            <p class="intro">What's holding back good policy?</p>
+            
+            <div class="content">
+                <p>As researchers, we want to know how to improve state policy and pass important legislation. To do so, we're asking for your help in understanding and solving the toughest policy bottlenecks facing state governments across the United States.</p>
+                
+                <div class="survey-box">
+                    <h2>How to Participate</h2>
+                    <p>Please complete our <span class="highlight">8-minute survey</span> on state policy. In exchange, you can pick up your thank-you gift from our booth in the Exhibition Hall located on the Launchpad Pavilion (<a href="https://smt.expocad.com/Events/25ncsl/index.html" target="_blank">map</a>).</p>
+                    <p>Gifts range from a $5 gift card to prizes worth $25. We'll also email you a custom report on what voters in <span class="highlight">your district</span> think about state policy.</p>
+                    <a href="https://columbiangwu.co1.qualtrics.com/jfe/form/SV_25AQMeG19HkgjcO" class="survey-link" target="_blank">Take the Survey</a>
+                </div>
+                
+                <div class="about">
+                    <h2>About the Researcher</h2>
+                    <p>I am an <a href="https://politicalscience.columbian.gwu.edu/michael-hankinson" target="_blank">Assistant Professor of Political Science</a> at <a href="https://politicalscience.columbian.gwu.edu/" target="_blank">George Washington University</a>. I study American politics, with a focus on state and local politics. You can reach me at hankinson@gwu.edu if you have questions about this study.</p>
+                </div>
+            </div>
+        </main>
 
-  gtag('config', 'G-ZP2E6EJB8S');
-</script>
-
-
-
-<p>
-	<i>What's holding back good policy?</i> As researchers, we want to know how to improve state policy and pass important legislation. To do so, we're asking for your help in understanding and solving the toughest policy bottlenecks facing state governments across the United States.</p>
-
-	<p>
-		To help, please complete our 8 minute survey on state policy. In exchange, you can pick up your thank-you gift from our booth in the Exhibition Hall located on the Launchpad Pavilion (<a href="https://smt.expocad.com/Events/25ncsl/index.html">link to map</a>). Gifts range from a $5 gift card to prizes worth $25. Also, we'll email you a custom report on what voters in <b>your</b> district think about state policy. </p>
-
-		<p><a href="https://columbiangwu.co1.qualtrics.com/jfe/form/SV_25AQMeG19HkgjcO">LINK TO OUR SURVEY</a></p>
-
-			<p>
-				For more information, I am an <a href="https://politicalscience.columbian.gwu.edu/michael-hankinson">Assistant Professor of Political Science</a> at the <a href="https://politicalscience.columbian.gwu.edu/">George Washington University</a>. I study American politics, with a focus on state and local politics. You can reach me via email at hankinson-at-gwu-dot-edu if you have questions about this study.</p>
-
-				
-
-		</div> 
+        <footer>
+            <a href="mailto:hankinson@gwu.edu">hankinson@gwu.edu</a>
+        </footer>
+    </div>
+</body>
+</html>
